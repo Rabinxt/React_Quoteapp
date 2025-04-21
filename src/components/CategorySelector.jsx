@@ -31,30 +31,43 @@ const CategorySelection = ({ onSelectCategory }) => {
 
 const styles = {
   container: {
-    textAlign: 'center',
-    padding: '20px',
-    fontFamily: 'sans-serif',
+    minHeight: '100vh',
+    background: 'linear-gradient(135deg, #667eea, #764ba2)',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    paddingTop: '5rem',
+    color: '#fff',
+    fontFamily: 'Arial, sans-serif',
   },
   heading: {
-    marginBottom: '20px',
+    fontSize: '2.5rem',
+    marginBottom: '2rem',
+    textShadow: '1px 1px 5px rgba(0,0,0,0.3)',
   },
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
-    gap: '15px',
-    maxWidth: '500px',
-    margin: '0 auto',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+    gap: '1.5rem',
+    width: '80%',
+    maxWidth: '700px',
+    justifyContent: 'center',
   },
   button: {
-    padding: '10px 20px',
-    fontSize: '16px',
-    backgroundColor: '#007bff',
-    color: '#fff',
+    backgroundColor: '#ffdd57',
+    color: '#333',
     border: 'none',
-    borderRadius: '8px',
+    borderRadius: '12px',
+    padding: '1rem 1.5rem',
+    fontSize: '1rem',
+    fontWeight: 'bold',
     cursor: 'pointer',
-    transition: '0.3s',
+    boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
+    transition: 'all 0.3s ease',
   },
 };
 
+styles.button[':hover'] = {
+  backgroundColor: '#ffe680',
+};
 export default CategorySelection;
