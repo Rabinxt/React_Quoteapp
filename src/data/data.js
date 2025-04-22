@@ -56,7 +56,7 @@ export const quotesData = {
     "Opportunities don't happen. You create them.",
     "Don't be afraid to give up the good to go for the great.",
     "I find that the harder I work, the more luck I seem to have.",
-    "Success is the sum of small efforts repeated day in and day out.",
+    "Success is the sum of small efforts repeated day in and day out.", 
     "There are no secrets to success. It is the result of preparation, hard work, and learning from failure.",
   ],
   Friendship: [
